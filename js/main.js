@@ -751,6 +751,7 @@ async function main() {
     if (!haveGround) {
       haveGround = true;
       cam.y = groundH + startAlt;
+      if (qs.get('rover') !== '0') toggleRover();
     }
   }
 
@@ -908,7 +909,6 @@ async function main() {
   }
 
   if (DBG) window.__mars = { device, shTex, shLv, cam, P, rover, get groundH() { return groundH; } };
-  if (qs.get('rover') === '1') setTimeout(toggleRover, 1500);
   resize();
   addEventListener('resize', resize);
   requestAnimationFrame(frame);

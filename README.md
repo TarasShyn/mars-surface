@@ -18,15 +18,15 @@ Needs a recent Chrome with WebGPU.
 | Input | Action |
 |---|---|
 | Click | Capture the mouse (Esc releases). Right-drag also looks around. |
-| W A S D | Fly, or drive the rover |
+| W A S D | Drive the rover, or fly |
 | Space or E / Q or C | Up / down while flying |
 | Shift | Faster |
 | Wheel | Flying speed, or chase-camera distance |
-| G | Spawn the rover in front of you and drive it; G again to fly |
+| G | Switch between driving the rover (the default) and flying |
 | Z | Zoom to 6 degrees |
 | H | Settings: sun, exposure, dust, haze, ice clouds, sky time lapse, albedo, stars, shadow steps, resolution |
 
-URL parameters: `cam=x,altitude,z,yawDeg,pitchDeg`, `rover=1`, `fov=deg`, `scale=0.5`, `ui=0`, and any settings key, for example `sunElev=4&dust=1.5`.
+URL parameters: `cam=x,altitude,z,yawDeg,pitchDeg`, `rover=0` to start flying, `fov=deg`, `scale=0.5`, `ui=0`, and any settings key, for example `sunElev=4&dust=1.5`.
 
 ## How it works
 
