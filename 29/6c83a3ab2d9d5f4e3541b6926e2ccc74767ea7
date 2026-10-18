@@ -1,0 +1,23 @@
+README.md
+  s_3a40d6a959b60b::t_006f1fb4bbbf71 21,25,29
+index.html
+  s_3a40d6a959b60b::t_a55d99b089a910 29
+js/main.js
+  s_3a40d6a959b60b::t_000c7da98112f6 754
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "296c83a3ab2d9d5f4e3541b6926e2ccc74767ea7",
+  "prompts": {},
+  "sessions": {
+    "s_3a40d6a959b60b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "396058af-3ce6-49d1-894e-2a442c845390",
+        "model": "unknown"
+      },
+      "human_author": "Taras Shynkarenko <taras.shinkarenko@gmail.com>"
+    }
+  }
+}
